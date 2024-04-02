@@ -18,19 +18,32 @@ The Python Steganography Tool is a desktop application designed to hide and retr
 
 Key Features:
 Encoding Data: Users can encode text data into an image, making it appear as a normal image while secretly carrying the hidden information.
+
 Decoding Data: The tool allows users to decode hidden text data from an encoded image, revealing the concealed information.
+
 Encryption: Optionally, users can encrypt the hidden data using the Advanced Encryption Standard (AES) for enhanced security. This ensures that even if the hidden information is discovered, it remains secure and unreadable without the correct decryption key.
+
 Random Key Generation: The tool generates a random AES key for encryption, ensuring unpredictability and robust security measures.
+
 Browse Images: Users can easily select image files using a file dialog, simplifying the process of choosing the input and output images for encoding and decoding.
+
 User-Friendly Interface: The application features a simple and intuitive graphical user interface (GUI) built using the Tkinter library, making it accessible and easy to use for users of all levels of expertise.
+
 How It Works:
+
 Encoding Process: The user selects an image file and inputs the text data they wish to hide, along with an optional AES encryption key. The application then embeds the text data into the image using steganography techniques, creating an encoded image file.
+
 Decoding Process: To retrieve the hidden text data, the user selects the encoded image file and, if encrypted, provides the correct AES decryption key. The application then extracts and displays the hidden text data from the image, allowing the user to access the concealed information.
+
 Technologies Used:
+
 Python: The core programming language used for developing the application.
+
 Tkinter: A standard GUI toolkit for Python used to create the graphical user interface of the application.
 PIL (Python Imaging Library) / Pillow: Used for image processing functionalities, such as loading, saving, and modifying images.
+
 PyCryptodome: Provides AES encryption and decryption capabilities, ensuring secure handling of sensitive data within the encoded images.
+
 Purpose:
 The Python Steganography Tool serves as a practical and educational tool for individuals interested in data security, cryptography, and digital forensics. It demonstrates the concepts of steganography and encryption in a hands-on manner, allowing users to explore and experiment with hiding and revealing information within images while ensuring data confidentiality and integrity.
 
